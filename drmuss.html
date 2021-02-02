@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="drumss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="container-fluid">
+     <div class="row">
+       <div class="column">
+         
+        <audio id="audio1"><source src="drum5.mpeg" type="audio/mpeg"></audio>
+        <audio id="audio2"><source src="drum2.mpeg" type="audio/mpeg"></audio>
+        <audio id="audio3"><source src="drum3.mpeg" type="audio/mpeg"></audio>
+        <audio id="audio4"><source src="drum4.mpeg" type="audio/mpeg"></audio>
+          <audio id="audioc1"><source src="disc1.mpeg" type="audio/mpeg"></audio>
+            <audio id="audioc2"><source src="disc3.mpeg" type="audio/mpeg"></audio>
+          <audio id="audio5"><source src="drum5.mpeg" type="audio/mpeg"></audio>
+            <audio id="audio6"><source src="drum6.mpeg" type="audio/mpeg"></audio>
+        <audio id="audiosn"><source src="tomtomdrum.mp3" type="audio/mpeg"></audio> 
+          <audio id="audiot"><source src="tomdrum.mp3" type="audio/mpeg"></audio>     
+
+        <audio id="audiott"><source src="drum6.mpeg" type="audio/mpeg"></audio>     
+
+
+
+    <a >
+          <img src="bass.png" alt="" id="im1" class="img" onclick="bass();">
+     </a>
+     <script>
+      var audio1= document.getElementById("audio1");
+          function bass()
+          {
+              audio1.currentTime = 0;
+              audio1.play();
+          }
+      </script>
+  
+
+  <a >
+    <img src="cymbal1.png" alt="" id="im2" class="img" onclick="cymbal1();">
+    </a>
+    <script>
+    var audio2= document.getElementById("audioc1");
+    function cymbal1()
+    {
+      audio2.currentTime = 0;
+      audio2.play();
+    }
+    </script>
+
+<a >
+<img src="tom.png" alt="" id="im3" class="img" onclick="tom();">
+</a>
+<script>
+var audio3= document.getElementById("audiot");
+function tom()
+{
+  audio3.currentTime = 0;
+  audio3.play();
+}
+</script>
+ 
+<a >
+  <img src="snare.png" alt="" id="im4" class="img" onclick="snare();">
+</a>
+<script>
+var audio4= document.getElementById("audiosn");
+  function snare()
+  {
+      audio4.currentTime = 0;
+      audio4.play();
+  }
+</script>
+
+
+<a >
+  <img src="cymbal2.png" alt="" id="im5" class="img" onclick="cymbal2();">
+</a>
+<script>
+var audio5= document.getElementById("audioc2");
+  function cymbal2()
+  {
+      audio5.currentTime = 0;
+      audio5.play();
+  }
+</script>
+
+<a >
+  <img src="tomtoms.png" alt="" id="im6" class="img" onclick="tomtom();">
+</a>
+<script>
+  var audio6= document.getElementById("audiott");
+  function tomtom()
+  {
+      audio6.currentTime = 0;
+      audio6.play();
+  }
+</script>
+
+<a onclick="leftcymbal();">
+  <img src="leftcymbal.jpg" alt="" id="im7" class="img">
+</a>
+<script>
+  var audio7= document.getElementById("audio2");
+  function tomtom()
+  {
+      audio7.currentTime = 0;
+      audio7.play();
+  }
+</script>
+
+        
+         
+       </div>
+     </div>
+   </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

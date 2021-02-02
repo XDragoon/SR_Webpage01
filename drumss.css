@@ -1,0 +1,55 @@
+
+body{
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+.img{
+    max-width: 100%;
+}
+#im1{
+    position: absolute;
+    width: 25%;
+    z-index: 3;
+    margin-top: 17%;
+    margin-left:38%
+}
+#im2{
+    position: absolute;
+    width: 23%;
+    z-index: 0;
+    margin-top: 10%;
+    margin-left:59%
+}
+#im3{
+    position: absolute;
+    width: 25%;
+    z-index: 1;
+    margin-top: 17%;
+    margin-left:25%
+}
+#im4{
+    position: absolute;
+    width: 20%;
+    z-index: 0;
+    margin-top: 20%;
+    margin-left: 54%;
+
+}
+#im5{
+    position: absolute;
+    width: 28%;
+    margin-top: 10%;
+    margin-left: 24%;
+}
+#im6{
+    position: absolute;
+    width: 18%;
+    margin-top: 13%;
+    margin-left: 41%;
+}
+#im7{
+    position: absolute;
+    width: 18%;
+    margin-top: 13%;
+    margin-left: 21%;
+}
