@@ -1,0 +1,372 @@
+<html>
+    <head>
+    <title>Pro</title>
+          <link rel="stylesheet" type="text/css" href="news.css">
+    
+    </head>
+    <body style="background-image: url(wallpaper2.jpg)">
+       <div>
+           <audio id="audiomu">
+           <source src="twinkles.mpeg" type="audio/mpeg">
+           </audio>
+           <button id="playPauseBTN" onclick="playPause()" style="background-color: red; width: 5em;height: 5em; position: absolute;z-index: 2;border-radius: 50%;border-color: black;margin-top: 11%; margin-left: 5%;">Play &#9658;</button>
+           &nbsp;
+           &nbsp;
+    <script>
+        var audio50= document.getElementById("audiomu");
+        var playPauseBTN=document.getElementById('playPauseBTN');
+        var count=0;
+        function playPause(){
+            if(count==0){
+                count=1;
+                audio50.play();
+                playPauseBTN.innerHTML="Pause &#9208;";
+                
+            } else{
+                count=0;
+                audio50.pause();
+                playPauseBTN.innerHTML="Play &#9658;";
+                
+            }
+            
+            
+        }
+        function stop(){
+           // playPause()
+            //audio50.pause();
+            //audio50.currentTime=0;
+            //playPauseBTN.innerHTML="Play &#9658;";
+        }
+        </script>
+    <ul class="set">
+        <li class="white c" onclick ="bell()"><audio id="audiobe"><source src="C-.mp3" type="audio/mpeg"></audio></li>
+        <script>
+        var audio1= document.getElementById("audiobe");
+            function bell()
+            {
+                audio1.currentTime=0;
+                audio1.play();
+            
+    
+                }
+            
+        </script>
+  <li class="black cs" onclick="qing()"><audio id="audioq"><source src="Cs-.mp3" type="audio/mpeg"></audio></li>
+        <script>
+        var audio2= document.getElementById("audioq");
+            function qing(){
+                audio2.currentTime=0;
+                audio2.play();
+            }
+        </script>
+  <li class="white d" onclick="wing()"><audio id="audiow"><source src ="D-.mp3" type="audio/mpeg"></audio></li>
+        <script>
+        var audio3= document.getElementById("audiow");
+            function wing()
+            {
+                audio3.currentTime=0;
+                audio3.play();
+            }
+        </script>
+  <li class="black ds" onclick="eing()"><audio id="audioe"><source src="Ds-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio4= document.getElementById("audioe");
+            function eing()
+            {
+                audio4.currentTime=0;
+                audio4.play();
+            }
+        </script>
+        <li class="white e" onclick="ring()"><audio id="audior"><source src="E-.mp3" type="audio/mpeg"></audio></li>
+        <script>
+        var audio5= document.getElementById("audior");
+            function ring()
+            {
+                audio5.currentTime=0;
+                audio5.play();
+            }
+        </script>
+ <li class="white f" onclick="ting()"><audio id="audiot"><source src="F-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio6= document.getElementById("audiot");
+            function ting()
+            {
+                audio6.currentTime=0;
+                audio6.play();
+            }
+        </script>
+  <li class="black fs" onclick="ying()"><audio id="audioy"><source src="Fs-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio7= document.getElementById("audioy");
+            function ying()
+            {
+                audio7.currentTime=0;
+                audio7.play();
+            }
+        </script>
+  <li class="white g" onclick="uing()"><audio id="audiou"><source src="G-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio8= document.getElementById("audiou");
+            function uing()
+            {
+                audio8.currentTime=0;
+                audio8.play();
+            }
+        </script>
+  <li class="black gs" onclick="iing()"><audio id="audioi"><source src="Gs-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio9= document.getElementById("audioi");
+            function iing()
+            {
+                audio9.currentTime=0;
+                audio9.play();
+            }
+        </script>
+  	<li class="white a" onclick="oing()"><audio id="audioo"><source src="A-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio10= document.getElementById("audioo");
+            function oing()
+            {
+                audio10.currentTime=0;
+                audio10.play();
+            }
+        </script>
+	  <li class="black as" onclick="ping()"><audio id="audiop"><source src="As-.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio11= document.getElementById("audiop");
+            function ping()
+            {
+                audio11.currentTime=0;
+                audio11.play();
+            }
+        </script>
+        <li class="white b" onclick="aing()"><audio id="audioa"><source src="B-2.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio12= document.getElementById("audioa");
+            function aing()
+            {
+                audio12.currentTime=0;
+                audio12.play();
+            }
+        </script>
+        <li class="white c" onclick="sing()"><audio id="audios"><source src="C.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio13= document.getElementById("audios");
+            function sing()
+            {
+                audio13.currentTime=0;
+                audio13.play();
+            }
+        </script>
+  <li class="black cs" onclick="ding()"><audio id="audiod"><source src="Cs.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio14= document.getElementById("audiod");
+            function ding()
+            {
+                audio14.currentTime=0;
+                audio14.play();
+            }
+        </script>
+  <li class="white d" onclick="fing()"><audio id="audiof"><source src="D.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio15= document.getElementById("audiof");
+            function fing()
+            {
+                audio15.currentTime=0;
+                audio15.play();
+            }
+        </script>
+  <li class="black ds" onclick="ging()"><audio id="audiog"><source src="Ds.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio16= document.getElementById("audiog");
+            function ging()
+            {
+                audio16.currentTime=0;
+                audio16.play();
+            }
+        </script>
+  <li class="white e" onclick="hing()"><audio id="audioh"><source src="E.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio17= document.getElementById("audioh");
+            function hing()
+            {
+                audio17.currentTime=0;
+                audio17.play();
+            }
+        </script>
+ <li class="white f" onclick="jing()"><audio id="audioj"><source src="F.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio18= document.getElementById("audioj");
+            function jing()
+            {
+                audio18.currentTime=0;
+                audio18.play();
+            }
+        </script>
+  <li class="black fs" onclick="king()"><audio id="audiok"><source src="Fs.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio19= document.getElementById("audiok");
+            function king()
+            {
+                audio19.currentTime=0;
+                audio19.play();
+            }
+        </script>
+  <li class="white g" onclick="ling()"><audio id="audiol"><source src="G2.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio20= document.getElementById("audiol");
+            function ling()
+            {
+                audio20.currentTime=0;
+                audio20.play();
+            }
+        </script>
+  <li class="black gs" onclick="zing()"><audio id="audioz"><source src="Gs.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio21= document.getElementById("audioz");
+            function zing()
+            {
+                audio21.currentTime=0;
+                audio21.play();
+            }
+        </script>
+  	<li class="white a" onclick="xing()"><audio id="audiox"><source src="A.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio22= document.getElementById("audiox");
+            function xing()
+            {
+                audio22.currentTime=0;
+                audio22.play();
+            }
+        </script>
+	  <li class="black as" onclick="cing()"><audio id="audioc"><source src="As.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio23= document.getElementById("audioc");
+            function cing()
+            {
+                audio23.currentTime=0;
+                audio23.play();
+            }
+        </script>
+        <li class="white b" onclick="ving()"><audio id="audiov"><source src="b22.mpeg" type="audio/mpeg"></audio></li>
+         <script>
+        var audio24= document.getElementById("audiov");
+            function ving()
+            {
+                audio24.currentTime=0;
+                audio24.play();
+            }
+        </script>
+        <li class="white c" onclick="bing()"><audio id="audiob"><source src="C+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio25= document.getElementById("audiob");
+            function bing()
+            {
+                audio25.currentTime=0;
+                audio25.play();
+            }
+        </script>
+  <li class="black cs" onclick="ning()"><audio id="audion"><source src="Cs+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio26= document.getElementById("audion");
+            function ning()
+            {
+                audio26.currentTime=0;
+                audio26.play();
+            }
+        </script>
+  <li class="white d" onclick="ming()"><audio id="audiom"><source src="D+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio27= document.getElementById("audiom");
+            function ming()
+            {
+                audio27.currentTime=0;
+                audio27.play();
+            }
+        </script>
+  <li class="black ds" onclick="qwing()"><audio id="audioqw"><source src="Ds+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio28= document.getElementById("audioqw");
+            function qwing()
+            {
+                audio28.currentTime=0;
+                audio28.play();
+            }
+        </script>
+  <li class="white e" onclick="ering()"><audio id="audioer"><source src="E+2.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio29= document.getElementById("audioer");
+            function ering()
+            {
+                audio29.currentTime=0;
+                audio29.play();
+            }
+        </script>
+ <li class="white f" onclick="tying()"><audio id="audioty"><source src="F+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio30= document.getElementById("audioty");
+            function tying()
+            {
+                audio30.currentTime=0;
+                audio30.play();
+            }
+        </script>
+  <li class="black fs" onclick="uiing()"><audio id="audioui"><source src="Fs+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio31= document.getElementById("audioui");
+            function uiing()
+            {
+                audio31.currentTime=0;
+                audio31.play();
+            }
+        </script>
+  <li class="white g" onclick="oping()"><audio id="audioop"><source src="G+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio32= document.getElementById("audioop");
+            function oping()
+            {
+                audio32.currentTime=0;
+                audio32.play();
+            }
+        </script>
+  <li class="black gs" onclick="asing()"><audio id="audioas"><source src="Gs+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio33= document.getElementById("audioas");
+            function asing()
+            {
+                audio33.currentTime=0;
+                audio33.play();
+            }
+        </script>
+  	<li class="white a" onclick="dfing()"><audio id="audiodf"><source src="A+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio34= document.getElementById("audiodf");
+            function dfing()
+            {
+                audio34.currentTime=0;
+                audio34.play();
+            }
+        </script>
+	  <li class="black as" onclick="ghing()"><audio id="audiogh"><source src="As+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio35= document.getElementById("audiogh");
+            function ghing()
+            {
+                audio35.currentTime=0;
+                audio35.play();
+            }
+        </script>
+                <li class="white b" onclick="jking()"><audio id="audiojk"><source src="B+.mp3" type="audio/mpeg"></audio></li>
+         <script>
+        var audio36= document.getElementById("audiojk");
+            function jking()
+            {
+                audio36.currentTime=0;
+                audio36.play();
+            }
+        </script>
+        
+        
+</ul>
+    </body>
+</html>
